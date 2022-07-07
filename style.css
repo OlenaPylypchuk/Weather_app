@@ -21,6 +21,7 @@ h3 {
 }
 .forecast {
     margin: o auto; 
+    background-color: darkgrey;
     color: red;
 }
 
