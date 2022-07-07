@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+       <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+  <div class="container">
+  <p class="data">
+     <input type="text" placeholder="Enter your city" id="inputCity"/>
+     
+     <input type="submit" value="search" id="search" >
+     <input type="submit" value="current location" id="currentLocation">
+    
+  </p>
+  <h3>
+      <div class="row">
+        
+        <div class="col-3" id="today-date">
+         <small>05/06/2022</small> 
+        </div>
+        <div class="col-3" id="today-weekday">
+          Friday
+        </div>
+        <div class="col-3" id="location">
+          Kiev, Ukraine
+        </div>
+       
+      </div>
+    </h3>
+    <p class="currentWeather">
+         <div class="row">
+        
+        <div class="col-3">
+         🌡️  °C
+         </div>
+                
+          <div class="row">
+        
+        <div class="col-3">     
+                    <small> day </small> 🌤️
+               <span id="todayTemperature" ><strong>+20˚</strong></span>
+            </div>
+            <div class="col-3">
+             <small> night </small> 🌜 
+             <span id="tonightTemperature"><strong> +13˚</strong></span>
+            </div>
+       
+      </div>
+    </p>
+    <p class="forecast">
+      weather for 5 days
+     <div class="row">
+        
+        <div class="col-xs-5">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-title">06/06/2022</h6>
+                <p class="card-text">
+                 Monday <br>
+                  🌦️ +28˚
+                  <br>
+                  🌧️ +12˚
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-5">
+              <div class="card">
+                <div class="card-body">
+                  <h6 class="card-title">07/06/2022</h6>
+                  <p class="card-text">
+                    Tuesday <br>
+                  🌥️ +20˚
+                  <br>
+                  ⛆ +12˚
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-5">
+              <div class="card">
+                <div class="card-body">
+                  <h6 class="card-title">08/06/2022</h6>
+                  <p class="card-text">
+                    Wednesday <br>
+                  🌞 +24˚
+                  <br>
+                  🌝 +14˚
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-5">
+              <div class="card">
+                <div class="card-body">
+                  <h6 class="card-title">09/06/2022</h6>
+                  <p class="card-text">
+                    Thursday <br>
+                  🌥️ +22˚
+                  <br>
+                  🌜 +12˚
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-5">
+          <div class="card">
+            <div class="card-body">
+              <h6 class="card-title">10/06/2022</h6>
+              <p class="card-text">
+                
+                Friday <br>
+                
+                  🌞 +22˚
+                  <br>
+                  🌜 +12˚
+              </p>
+            </div>
+          </div>
+        </div>
+
+    </p>
+  </div> 
+  <script src="script.js"></script>
+  
+</body>
+</html>
