@@ -1,0 +1,45 @@
+
+.container {
+ display: block;
+ margin: 0 auto;
+}
+h3 {
+    display: block;
+    margin-top: 60px;
+    width: 100%;
+    color: blue;
+}
+.currentWeather {
+  text-align: center;
+  display: block;
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 100%;
+  
+     
+}
+.forecast {
+    margin: o auto; 
+    color: red;
+}
+
+.row {
+    text-align: center;
+    padding-top: 10px;  
+    box-sizing: content-box;      
+}
+
+.col-xs-5 {
+    width: 20%;
+    float: left;
+    font-weight: 400;
+}
+.col-3 {
+    width: 33%;
+    float: center;
+}
+.col-2 {
+    width: 50%;
+    float: center;
+}
