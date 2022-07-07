@@ -12,6 +12,10 @@
 .#currentLocation {
    margin: 10px 10px 10px 10px;   
 }
+div.row {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 h3 {
     display: block;
     margin-top: 60px;
