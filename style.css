@@ -21,7 +21,7 @@ h3 {
     display: block;
     margin-top: 60px;
     width: 100%;
-    color: rgb(90, 12, 35);
+    color: rgb(192 37 83);
     font-size: revert;
 }
 .currentWeather {
@@ -58,4 +58,8 @@ h3 {
 .col-2 {
     width: 50%;
     float: center;
+}
+.card-text {
+    width:80%;
+    max-width: 12px;
 }
