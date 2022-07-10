@@ -18,11 +18,12 @@ div.row {
     margin-right: 20px;
 }
 h3 {
-    display: block;
+   display: block;
     margin-top: 60px;
     width: 100%;
     color: rgb(192 37 83);
-    font-size: revert;
+    font-size: 10px;
+    flex: content;
 }
 .currentWeather {
   text-align: center;
