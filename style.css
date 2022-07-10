@@ -1,4 +1,4 @@
-
+        
 .container {
  display: block;
  position: relative;
@@ -18,11 +18,11 @@ div.row {
     margin-right: 20px;
 }
 h3 {
-   display: block;
+    display: block;
     margin-top: 60px;
     width: 100%;
     color: rgb(192 37 83);
-    font-size: 10px;
+    font-size: 14px;
     flex: content;
 }
 .currentWeather {
@@ -36,7 +36,9 @@ h3 {
      
 }
 .forecast {
+  display: block;
     margin: o auto; 
+    text-align: center;
     background-color: rgb(227, 223, 223);
     color: rgb(47, 46, 46);s
 }
